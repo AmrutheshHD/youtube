@@ -1,0 +1,227 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Roboto", sans-serif;
+}
+.comtainer{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.im {
+    background-image: url('image/f1.jpg');
+    background-size: cover;         /* or 'contain' if you want the whole image visible */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.35;
+}
+nav{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+.b1{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight:600 ;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.id{
+    padding-left: 118px;
+    padding-top: 18px;
+}
+.bu{
+    margin-right: 135px;
+    margin-top: 14px;
+}
+.idd{
+   
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius:6px;
+    font-size: 12px;
+    border: 1px solid red;
+    
+}
+.text{
+    position: absolute;
+    top: 35%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items:center ;
+    
+    gap: 6px;
+}
+.te{
+    font-size: 45px;
+    font-weight: 800;
+}
+.text1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.text2{
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.vi{
+    width: 300px;
+    padding: 10px 10px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 1px;
+
+}
+.v{
+    width: 150px;
+       padding: 8px 8px;
+       margin-top: 1px;
+       font-size: 18px;
+       font-weight: 600;
+       background-color: red;
+       color: white;
+       border: 1px solid red;
+}
+body{
+    background-color: #000000;
+    
+}
+.trend{
+    color: white;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card {
+    
+    width: 80vw;
+    margin-left: 120px;
+    display: inline-flex; /* lays out .img divs side by side */
+    gap: 30px;
+    position: relative; /* optional, only if you use absolutely positioned children */
+       overflow-x: auto;             /* allows horizontal scrolling */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+      scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+   }
+.card::-webkit-scrollbar {
+    display: none;
+}
+.img {
+    width: 200px;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* FIX: Remove position: absolute */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.card1 {
+    background-image: url('/image/chhavva.png');
+}
+
+.card2 {
+    background-image: url('/image/img.png');
+}
+.card3{
+    background-image: url('/image/diplomat.png');
+}
+.card4 {
+    background-image: url('/image/gbu.png');
+}
+.card5{
+    background-image: url('/image/jaat.png');
+}
+.card6{
+    background-image: url('/image/puspha.png');
+}
+.card7{
+    background-image: url('/image/royal.png');
+}
+.card8{
+    background-image: url('/image/sik.png');
+}
+.card9{
+    background-image: url('/image/when.png');
+}
+.card10{
+    background-image: url('/image/retro.png');
+}
+
+.num {
+    font-size: 64px;
+    padding-right: 120px;
+    padding-top: 100px;
+    color: black;
+    font-weight: bold;
+   -webkit-text-stroke: 1px  white;
+  
+}
+
+.joy{
+    width: 100vw;
+    height: 50vh;
+
+}
+.tex{
+     font-size: 26px;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    color: white;
+}
+.joy1{
+    
+    font-size: 18px;
+    font-weight: 600;
+     padding: 10px 5px;
+    color: white;
+    width: 250px;
+    height: 200px;
+    background-color:blue;
+    margin-left: 100px;
+    align-items: center;
+    justify-items: center;
+    
+    
+    
+}
+.joy2{
+    font-size: 15px;
+}
+.log{
+    margin-left: 170px;
+    margin-top: 50px;
+}

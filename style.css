@@ -1,0 +1,445 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: #000000;
+}
+.comtainer{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.im {
+    background-image: url('image/f1.jpg');
+    background-size: cover;         /* or 'contain' if you want the whole image visible */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.35;
+   
+}
+nav{
+    position: absolute;
+    top: 0;
+    width: 100vw;
+}
+.b1{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    justify-content: center;
+    align-items: center;
+    font-weight:600 ;
+    border: 1px solid white;
+    border-radius: 2px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.id{
+    padding-left: 118px;
+    padding-top: 18px;
+}
+.bu{
+    margin-right: 135px;
+    margin-top: 14px;
+}
+.idd{
+   
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    border-radius:6px;
+    font-size: 12px;
+    border: 1px solid red;
+    
+}
+.text{
+    position: absolute;
+    top: 35%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items:center ;
+    
+    gap: 6px;
+}
+.te{
+    font-size: 45px;
+    font-weight: 800;
+}
+.text1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.text2{
+    margin-top: 18px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+.vi{
+    width: 300px;
+    padding: 10px 10px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 1px;
+
+}
+.v{
+    width: 150px;
+       padding: 8px 8px;
+       margin-top: 1px;
+       font-size: 18px;
+       font-weight: 600;
+       background-color: red;
+       color: white;
+       border: 1px solid red;
+}
+body{
+    background-color: #000000;
+    
+}
+.trend{
+    color: white;
+    margin-top: 40px;
+    margin-left: 180px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.card {
+    
+    width: 80vw;
+    margin-left: 180px;
+    display: inline-flex; /* lays out .img divs side by side */
+    gap: 30px;
+    position: relative; /* optional, only if you use absolutely positioned children */
+       overflow-x: auto;             /* allows horizontal scrolling */
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+      scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+   }
+.card::-webkit-scrollbar {
+    display: none;
+}
+.img {
+    width: 200px;
+    height: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* FIX: Remove position: absolute */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.card1 {
+    background-image: url('/image/chhavva.png');
+}
+
+.card2 {
+    background-image: url('/image/img.png');
+}
+.card3{
+    background-image: url('/image/diplomat.png');
+}
+.card4 {
+    background-image: url('/image/gbu.png');
+}
+.card5{
+    background-image: url('/image/jaat.png');
+}
+.card6{
+    background-image: url('/image/puspha.png');
+}
+.card7{
+    background-image: url('/image/royal.png');
+}
+.card8{
+    background-image: url('/image/sik.png');
+}
+.card9{
+    background-image: url('/image/when.png');
+}
+.card10{
+    background-image: url('/image/retro.png');
+}
+
+.num {
+    font-size: 64px;
+    padding-right: 195px;
+    padding-top: 100px;
+    color: black;
+    font-weight: bold;
+   -webkit-text-stroke: 1px  white;
+  
+}
+
+.joy{
+    width: 100vw;
+    height: 60vh;
+    background-color: black;
+    position: relative;
+}
+.joy .tex1{
+
+    display: inline-flex;
+    padding-left: 165px;
+    
+}
+.tex{
+     font-size: 26px;
+    font-weight: 600;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 180px;
+    color: white;
+}
+.joy1{
+    
+    font-size: 18px;
+    font-weight: 600;
+    justify-self: center;
+    align-items: center;
+    color: white;
+    width: 260px;
+    height: 260px;
+    background-color:rgb(30 21 40);
+    margin: 14px;
+    border-radius: 10px;
+   
+}
+.joyo{
+    font-size: 24px;
+   padding: 8px 14px;
+}
+
+.log{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+.log1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.log2{
+    margin-left: 190px;
+    margin-top: 40px;
+}
+.joy2{
+        font-size: 16px;
+        padding-top: 14px;
+        color: rgb(127, 128, 129);
+}
+.fre{
+     width: 100vw;
+     height: 100vh;
+     background-color:black;
+     font-size: 30px;
+     padding-top: 50px;
+     padding-left: 30px;
+     display: flex;
+     flex-direction: column;
+     column-gap: 20;
+     color: white;
+     justify-items: center;
+    align-items: center;
+}
+.fre2{
+    padding-right: 950px;
+    font-size: 24px;
+    padding-bottom:10px;
+}
+
+.fre1{
+    width: 80vw;
+    height: 12vh;
+    font-size: 24px;
+    background-color:#2d2d2d;
+    border: 2px solid black;
+    margin-top: 6px;
+    display: flex;
+      justify-items: center;
+    align-items: center;
+    padding-left: 20px;
+}
+.it{
+  margin-left:860px ;
+}
+.it1{
+  margin-left:1005px ;
+}
+.it2{
+  margin-left:990px ;
+}
+.it3{
+  margin-left:965px ;
+}
+.it4{
+  margin-left:920px ;
+}
+.it5{
+  margin-left:855px ;
+}
+.mem{
+    width: 100vw;
+    height: 40vh;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    margin-top: -40px;
+}
+.si{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 20px;
+}
+.va{
+    width: 550px;
+    height: 60px;
+    border: 1px solid white;
+    background-color: #000000;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+.si1{
+    width: 200px;
+    height: 62px;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    font-size: 22px;
+    font-weight: 800;
+    border-radius: 4px;
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    /* animation-fill-mode: forwards; */
+    animation-play-state: running;
+}
+.si1:hover{
+    animation-play-state: paused;
+}
+.con1{
+    width: 100vw;
+    height: 40vh;
+    font-size: 16px;
+    padding-left: 160px;
+    color: white;
+    margin-top: -95px;
+  
+}
+.con2{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+     margin-top: 30px;
+    
+}
+.con3{
+    
+    width: 80vw;
+    height: 40vh;
+}
+.on{
+ padding: 230px;
+  margin-left:-230px ;
+margin-top: -100px;
+   color: white;
+ 
+}
+.con4{
+    margin-top: 20px;
+     width: 80vw;
+    height: 40vh;
+    margin-right: 200px;
+      color: white; 
+}
+.a{
+ margin-left: 142px;
+  color: white; 
+}
+.a1{
+    margin-left: 295px;
+       color: white;
+}
+.a2{
+    margin-left: 190px;
+       color: white;
+}
+.c{
+    
+    padding-top: 20px;
+       color: white;
+}
+.a3{
+    margin-left: 200px;
+       color: white;
+}
+.a4{
+    margin-left: 136px;
+       color: white;
+}
+.c1{
+    padding-top: 20px;
+       color: white;
+}
+.a6{
+    margin-left: 176px;
+       color: white;
+}
+.a7{
+    margin-left: 228px;
+       color: white;
+}
+.q{
+    color: white;
+}
+@keyframes spin{
+    0%{
+        scale: 1;
+    }
+    50%{
+        scale: 2;
+        transform: rotate(0deg);
+        border-radius: 0%;
+    }
+    100%{
+        transform: rotate(360deg);
+        /* border-radius: 50%; */
+        scale: 1;
+    }
+}
+@media only screen and (max-width:455px){
+    .im {
+    background-image: url('image/f1.jpg');
+    background-size: cover;         /* or 'contain' if you want the whole image visible */
+    background-position: center;
+    background-repeat: no-repeat;
+  
+   
+}
+}
